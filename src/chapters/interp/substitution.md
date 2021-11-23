@@ -313,7 +313,7 @@ for clarity, we could state that `x -/->`.
 ## Implementing the Single-Step Relation
 
 It's easy to turn the above definitions of `-->` into an OCaml function that
-pattern matches against AST nodes. In the code below, recall that we have yet
+pattern matches against AST nodes. In the code below, recall that we have not yet
 finished defining substitution (i.e., `subst`); we'll return to that in the next
 section.
 
